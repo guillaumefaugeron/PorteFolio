@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #cccccc;
+}
+.Element_Nav_Text  {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    width: 8%;
+
+}
+
+.Element_Nav_Text:hover {
+    background-color: #111;
+    margin-top: 2%;
+
+
+}
+
+
+.Nav {
+
+    width: 100%;
+    background-color: #BCBABE;
+    text-align: center;
+    position: fixed;
+    z-index:1 ;
+
+    height: 25%;
+
+
+}
+.Nav >a {
+    padding:3.5em;
+    vertical-align: middle;
+    padding-top: 5%;
+    margin-top: 2%;
+
+}
+
+
+#Img_Background_Name{
+    width: 100%;
+}
+
+.Name_Picture{
+
+    background-image: image(blue);
+}
+
+#Photo_Profil{
+
+    float: right;
+    padding-top : 1em;
+    padding-right: 10%;
+    margin: 5%;
+}
+
+
+#Name{
+    padding-left: 10%;
+    padding-top: 1em ;
+    float: top ;
+
+}
+
+.button{
+    padding:6px 0 6px 0;
+    font:bold 13px Arial;
+    background:#f5f5f5;
+    color:#555;
+    border-radius:2px;
+    width:10em;
+    border:1px solid #ccc;
+
+    position: relative; /* postulat de départ */
+    top: 70%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%);
+}
+.buttonText{
+    text-align: center;
+}
+
+.descriptionTopButton{
+    font:bold 2em Arial;
+    text-align: center;
+    position: relative; /* postulat de départ */
+     margin-top: 5%; /* à 50%/50% du parent référent */
+
+}
+
+.contentSchool{
+    margin-left: 13%;
+    font: 1.5em Arial;
+}
+.TitleContent {
+    margin-left: 8%;
+    font: 2em blod Arial;
+    margin-bottom: 3%;
+
+}
+
+.titleSchool {
+    margin-left: 8%;
+    font:  3em blod Arial;
+    margin-bottom: 4%;
+}
+
+.PhotoContent{
+    padding-left: 60%;
+
+}
+.MessageContact{
+    margin-left: 20%;
+    display: inline-flex;
+}
+
+
+.NameEmailcontact{
+    display: inline-flex;
+    /*margin-top: 5%;*/
+    /*margin-bottom: 5%;*/
+}
+.input{
+    border-radius: 2em;
+    border-style: double;
+    border-width: 0.5em;
+    border-color: #cccccc;
+
+}
+.titleFormName{
+    margin-left: 5%;
+}
+.form-group{
+    margin-right:30%;
+}
+.form{
+    margin-bottom: 5%;
+}
+.buttonMail{
+    background: #cccccc;
+    width: 200px;
+    height: 100px;
+    padding: 4px 0;
+
+    left: 50%;
+    border-radius: 3px;
+}
+.buttonMaildiv{
+    margin-left: 80%;
+    margin-top: -5%;
+}
+.image{
+    width: 300px;
+
+}
+/*grid*/
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+
+}
+.Nav1{
+    grid-column: 1/ span 2;
+    grid-row: 1 / span 1;
+}
+.item1{
+    grid-column: 1/ span 2;
+    grid-row: 2 / span 4;
+
+    background-image: url("../img/background.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    padding-top : 20%;
+    margin-top: 1fr;
+}
+
+
+.item2{
+    background-color: #F1F1F2;
+    grid-column: 1/ span 1;
+    grid-row: 6 / span 2;
+}
+
+.item3{
+    background-color: #F1F1F2;
+    grid-column: 2/ span 1;
+    grid-row: 6 / span 2;
+}
+
+
+
+
+.item4{
+    background-color: #F1F1F2;
+    grid-column: 1/ span 1;
+    grid-row: 8 / span 2;
+}
+.item5{
+     background-color: #F1F1F2;
+     grid-column: 2/ span 1;
+    grid-row: 8 / span 2;
+ }
+
+
+
+
+
+
+
+.item6{
+    background-color: #F1F1F2;
+    grid-column: 1/ span 2;
+    grid-row: 10 / span 6;
+}
+.item7{
+    background-color: #F1F1F2;
+    grid-column: 1/ span 2;
+    grid-row: 16 / span 6;
+}
+.item8{
+    background-color: #F1F1F2;
+    grid-column: 1/ span 2;
+    grid-row: 22 / span 6;
+}
+
+.item9{
+    background-color: #F1F1F2;
+    grid-column: 1/ span 2;
+    grid-row: 28 / span 4;
+}
+
+
+
