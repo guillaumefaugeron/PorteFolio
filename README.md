@@ -26,6 +26,9 @@ Le JavaScript a été en association avec l'HTML et le CSS afin de rendre le sit
 ## PHP
 
 Le PHP a été grandement utilisé dans ce projet, tout d’abord dans le but de factoriser un maximum le code, grâce a l'utilisation de connexion PDO qui permettent de récupérer des données dans des base de données. Les base de données pourront être gérées via l'interface d'administration du site, qui permettra d'ajouter et de supprimer des éléments de la base de données utilisée.
+
+![merise](admin.png)
+
 Le PHP a été aussi utilisé dans les algorithme de connexion a la base de données.
 
 ## MySQL
