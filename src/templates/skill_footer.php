@@ -11,14 +11,19 @@ if(count($_POST)===4) {
             'Name'=>$_POST['Name'],
             'Content'=>$_POST['Content'],
             'Level'=>$_POST['Level'],
-    );
+
+);
 
     $mysqlConnection->insert("competences",$data);
+    header("Refresh:0");
+
+
 }
 
 if(isset($_GET['delete_id']) && $_GET['delete_id']!= null){
     $mysqlConnection->delete("competences");
     unset($_GET['delete_id']);
+    header('location: http://'.$_SERVER['HTTP_HOST'].'/admin//skills/skill_index.php');
 }
 ?>
 
