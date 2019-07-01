@@ -36,6 +36,9 @@ Le SQL a été utilisé dans une optique de création  de base de données qui s
 
 Les schémas merise ont été utilisés lors de la création de la base de données, afin d'avoir une conception visuelle de la base, et ainsi permettre une meilleur visualisation des dépendance entre les tables.
 
+![merise](merise.png)
+
+
 ## Référencement 
 
 Les méthode référencement utilisé sont les suivantes :
